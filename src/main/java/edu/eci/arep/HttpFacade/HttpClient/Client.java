@@ -8,7 +8,7 @@ import java.net.URL;
 public class Client {
     public static void main(String[] args) {
 
-        String url = "http://localhost:4567/index?number=123&oper=tan";
+        String url = "https://vast-tor-13297.herokuapp.com/?number=123&oper=tan";
         String readLine = null;
         String json = null;
         try {
