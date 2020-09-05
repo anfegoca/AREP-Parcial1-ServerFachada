@@ -8,9 +8,9 @@ import java.net.URL;
 public class Client {
     public static void main(String[] args) {
 
-        String url = "https://vast-tor-13297.herokuapp.com/?number=123&oper=tan";
+        String url = "https://vast-tor-13297.herokuapp.com/index?number=0&oper=cos";
         String readLine = null;
-        String json = null;
+        
         try {
             URL server = new URL(url);
             HttpURLConnection conection = (HttpURLConnection) server.openConnection();
